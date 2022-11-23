@@ -1,9 +1,7 @@
 1. **Name**: *Nikolay Novozhilov* ![](https://avatars.githubusercontent.com/u/118540482?s=400&u=62fe845565915113365c478ac806f4fc0090dbfd&v=4)
 2. **Contacts**: ***Telegramm***: @suertepumbaa ; ***Discord***: SuertePumbaa#9045, nickname in group: Nicolas Novozhilov (@suertepumb); ***mail***: varus97@yandex.ru; vk.com: [my profil](https://vk.com/suertepumbaa)
 3. **About me**: My name is Nikolai. I am 25 years old, currently working as a builder. I want to try myself in programming, since I was fond of computers from a young age and am still looking for a business from which I will enjoy and benefit other people. When I have an interest in a "project" (a task and/or the creation of something) I do this with passion and with the absorption of a large amount of information, regardless of work or study.
-
 >Why not try something new?
-
 4. **Skills**: I haven't mastered such skills yet.
 5. **Code**:
 ```
