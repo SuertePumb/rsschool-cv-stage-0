@@ -4,5 +4,12 @@
 }
 
 body {
-    color: aquamarine;
+    background: aquamarine;
+}
+
+#my_name {
+    padding: 15%;
+    text-align: right;
+    color: rgb(9, 9, 156);
+    font-size: 35px;
 }
