@@ -1,15 +1,49 @@
-
-.paragraph {
-    color: rgb(122, 11, 11);
-}
-
 body {
-    background: aquamarine;
+  font-family: "Lato", sans-serif;
+
+  background: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-#my_name {
-    padding: 15%;
-    text-align: right;
-    color: rgb(9, 9, 156);
-    font-size: 35px;
+html {
+    scroll-behavior: smooth; 
+}
+
+.container {
+  max-width: 1440px;
+   margin: 0 auto;
+}
+
+.header {
+  background-color: lightblue;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 15px;
+  line-height: 50px;
+
+  color: blue;
+  font-style: oblique;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main {
+  background-color: aqua;
+}
+
+.footer {
+  text-align: right;
+  background-color: lightblue;
 }
