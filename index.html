@@ -5,13 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styel.css">
-  <link rel="icon" href="assets/favicon.ico">
+  <link rel="icon" href="./assests/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lora:ital@1&display=swap" rel="stylesheet">
   <title>CV</title>
 </head>
+
 <body>
+
   <header class="header">
     <div class="container">
       <nav class="nav">
@@ -23,19 +25,64 @@
           <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
           <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
           <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+          <li>Изменить цвет/чтобы выдвигалась черточка при наведение на "ссылку"</li>
         </ul>
       </nav>
     </div>
   </header>
-  <main class="main">
+
+  <main class="main" class="main-container">
     <div class="container">
-        
+      <section class="section" id="profile">
+        <img src="./assests/img/my_photo.jpg" alt="my photo" wigth="200px" height="320px";>
+        <h1 class="section-title" class="my-name">Nicolay Novozilov</h1>
+        <p>Nicolay Novozilov</p>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <p></p>
+      </section>
+      <section class="section" id="about me">
+        <h2 class="section-title">About me</h2>
+        <p>My name is Nikolay. I am 25 years old, currently working as a builder. I want to try myself in programming, since I was fond of computers from a young age and am still looking for a business from which I will enjoy and benefit other people. When I have an interest in a "project" (a task and/or the creation of something) I do this with passion and with the absorption of a large amount of information. 
+          <span>Why not try something new?</span>
+        </p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <p></p>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <pre>
+          <code class="code">
+            function multiply(a, b) {
+            return a * b;
+            }
+          </code>
+        </pre>
+      </section>
+      <section class="section" id="experience">
+        <h2 class="section-title">Experience</h2>
+        <p></p>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <p></p>
+      </section>
+      <section class="section" id="english">
+        <h2 class="section-title">English</h2>
+        <p>A0.</p>
+      </section>
     </div>
   </main>
+
   <footer class="footer">
-    <div class="container"></div>
-    <img class="logo" src="assests/svg/rs_school_js.svg" alt="Logo RsSchool" width="100px" height="70px">
-    <a href="https://rs.school/js-stage0/">RsSchool</a>
+    <div class="container">
+      <a href="https://rs.school/js-stage0/">SuertePumb</a>
+      <img class="logo" src="assests/svg/rs_school_js.svg" alt="Logo RsSchool" width="100px" height="70px">
+    </div>
   </footer>
+
 </body>
 </html>
