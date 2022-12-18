@@ -11,16 +11,26 @@ html {
     scroll-behavior: smooth; 
 }
 
-@media (max-width: 768px) {
-  .profile {
-    flex-direction: column;
-    align-items: center;
-  }
+div {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  letter-spacing: 3px;
 }
 
 @media (max-width: 768px) {
   .section {
-    width: 100%;
+    width: 100%
+  }
+
+  .profile {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -69,7 +79,7 @@ html {
 }
 
 .section {
-  width: calc(50% - 20px);
+  width: calc(50% - 40px);
   padding: 5px;
   border-bottom: 1px rgb(140, 48, 116) solid;
 }
@@ -84,6 +94,7 @@ html {
 
 .section-title {
   font-style: oblique;
+  line-height: 15px;
 }
 
 .photo {
@@ -94,6 +105,8 @@ html {
 .main-text {
   font-weight: 600;
   text-align: left;
+  line-height: 32px;
+  letter-spacing: 1.7px;
 }
 
 .conname {
@@ -164,6 +177,10 @@ html {
   font-style: oblique;
 }
 
+code {
+  display: block;
+}
+
 .pre-code {
   padding: 0;
   margin: 0;
@@ -183,6 +200,7 @@ html {
 
 .footer {
   background-color: rgba(173, 216, 230, 1);
+  padding: 10px;
 }
 
 .footer-container {
@@ -202,4 +220,16 @@ html {
 .footer-container a:hover {
   color: blue;
   transition: 0.7s;
+}
+
+.logo {
+  width: 121px;
+  height: 45px;
+  background-image: url(assests/svg/rs_school_js.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.by {
+  font-weight: bold;
 }
