@@ -198,6 +198,22 @@ code {
   border: none;
 }
 
+.here {
+  padding-left: 7px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.project a {
+  color: black;
+  transition: 0.3s;
+}
+
+.project a:hover {
+  transition: 0.7s;
+  color: blue;
+}
+
 .footer {
   background-color: rgba(173, 216, 230, 1);
   padding: 10px;
