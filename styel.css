@@ -198,6 +198,10 @@ code {
   border: none;
 }
 
+.section-project {
+  border: none;
+}
+
 .here {
   padding-left: 7px;
   text-decoration: none;
