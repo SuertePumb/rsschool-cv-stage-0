@@ -209,12 +209,6 @@ code {
 }
 
 .project a {
-  color: black;
-  transition: 0.3s;
-}
-
-.project a:hover {
-  transition: 0.1s;
   color: blue;
 }
 
